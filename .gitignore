@@ -133,4 +133,4 @@ dmypy.json
 .idea/
 
 cached*
-ckpt*
+checkpoint*
