@@ -38,8 +38,8 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--input-path", type=str, help="data file path", default="./data/original/train.tsv")
-    parser.add_argument("--save-path", type=str, help="save data file path", default="./data/original/train_adv.tsv")
+    parser.add_argument("--input-path", type=str, help="data file path", default="../data/original/train.tsv")
+    parser.add_argument("--save-path", type=str, help="save data file path", default="../data/original/train_adv.tsv")
 
     args = parser.parse_args()
     
